@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct PersonDetailsView: View {
-    @Binding var isPresented: Bool
     let person: Person
     
     var body: some View {
@@ -32,5 +31,5 @@ struct PersonDetailsView: View {
 
 #Preview {
     
-    PersonDetailsView(isPresented: .constant(true), person: DataStore().generatePersons().first!)
+    PersonDetailsView(person: DataStore().generatePersons().first!)
 }
