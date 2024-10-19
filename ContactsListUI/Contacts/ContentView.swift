@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    private let contacts = DataStore().generatePersons()
+    private let contacts = Person.generatePersons()
     
     var body: some View {
         TabView {

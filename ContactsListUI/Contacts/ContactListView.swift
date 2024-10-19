@@ -21,5 +21,5 @@ struct ContactListView: View {
 }
 
 #Preview {
-    ContactListView(title: "hellow", contacts: DataStore().generatePersons())
+    ContactListView(title: "hellow", contacts: Person.generatePersons())
 }

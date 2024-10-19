@@ -11,7 +11,6 @@ struct DetailsRowView: View {
     let image: String
     let textInfo: String
     
-    
     var body: some View {
         HStack (spacing: 15){
             Image(systemName: image)

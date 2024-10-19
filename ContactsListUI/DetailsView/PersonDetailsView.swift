@@ -31,5 +31,5 @@ struct PersonDetailsView: View {
 
 #Preview {
     
-    PersonDetailsView(person: DataStore().generatePersons().first!)
+    PersonDetailsView(person: Person.generatePersons().first!)
 }

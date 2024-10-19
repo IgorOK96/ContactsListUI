@@ -24,5 +24,5 @@ struct ContactRowView: View {
 }
 
 #Preview {
-    ContactRowView(person: DataStore().generatePersons().first!)
+    ContactRowView(person: Person.generatePersons().first!)
 }

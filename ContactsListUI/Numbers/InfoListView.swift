@@ -28,5 +28,5 @@ struct InfoListView: View {
 }
 
 #Preview {
-    InfoListView(title: "Bey Bey", contacts: DataStore().generatePersons())
+    InfoListView(title: "Bey Bey", contacts: Person.generatePersons())
 }
